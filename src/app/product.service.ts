@@ -9,6 +9,7 @@ import { Album } from './album';
 @Injectable()
 export class ProductService {
   private _albumUrl: string = '../assets/album.json';
+  private _productsUrl: string = '../assets/products.json';
 
   constructor(
     private _http: Http
