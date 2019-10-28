@@ -21,4 +21,8 @@ export class ProductService {
       .get(this._albumUrl)
       .map(response => <Album>response.json());
   }
+
+  getProducts() {
+
+  }
 }
