@@ -10,6 +10,7 @@ import { Product } from '../product';
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent implements OnInit {
+  product: Product[];
 
   constructor() { }
 
